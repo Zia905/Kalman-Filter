@@ -1,1 +1,6 @@
 # Kalman-Filter
+The Kalman Filter is an optimal estimator that estimates the state of a linear dynamic system from a series of noisy measurements. It combines predictions from a dynamic model of the system with noisy measurements to produce a more accurate estimate of the state. The filter is particularly useful in situations where direct measurement of the state is not possible or where measurements are corrupted by noise. By incorporating information from both the system dynamics and the measurements, the Kalman Filter provides an optimal estimation of the state, taking into account the uncertainty in both the model and the measurements. It is widely used in applications such as navigation, robotics, and finance for its ability to provide accurate and efficient state estimation in real-time scenarios.
+
+In this example, we simulate the motion of an object with varying acceleration and use the Kalman Filter to estimate its position and velocity. This demonstrates the filter's ability to track the state of a dynamic system even in the presence of noisy measurements, showcasing its importance in applications where precise state estimation is critical.
+# Dependencies
+This project requires MATLAB to run. No additional toolboxes or libraries are needed.
